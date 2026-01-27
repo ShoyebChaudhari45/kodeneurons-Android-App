@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         requestPermissionsIfNeeded();
 
         // 🔴 REPLACE WITH YOUR WEBSITE URL
-        webView.loadUrl("https://kodeneurons.tech");
+        webView.loadUrl("https://kodeneurons.tech"); // add your url
     }
 
     private final ActivityResultLauncher<Intent> fileChooserLauncher =
